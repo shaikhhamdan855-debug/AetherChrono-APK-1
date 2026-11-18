@@ -27,8 +27,7 @@ jobs:
           npm init -y
           npm install @capacitor/core @capacitor/android
           npm install -D @capacitor/cli
-          npx cap init "AetherChrono Pro" "com.hamdan.aetherchrono" --web-dir www --force
-
+          npx cap init "AetherChrono Pro" "com.hamdan.aetherchrono" --web-dir www 
       - name: Generate Android Project
         run: |
           npx cap add android
